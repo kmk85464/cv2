@@ -105,7 +105,8 @@ abbr[data-original-title] {
     text-decoration: underline dotted;
     cursor: help;
     border-bottom: 0;
-    text-decoration-skip-ink: none
+    text-decoration-skip-ink: none;
+    background:#1C1C1C;
 }
 
 address {
@@ -382,7 +383,7 @@ h6,
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2
-    foreground: #004F4F4F;
+    foreground:#004F4F4F;
 }
 
 h1,
@@ -474,11 +475,14 @@ mark,
 }
 
 .list-inline-item {
-    display: inline-block
+    display: inline-block;
+    background:#030303;
+
 }
 
 .list-inline-item:not(:last-child) {
-    margin-right: .5rem
+    margin-right: .5rem;
+    background:#030303;
 }
 
 .initialism {
@@ -2561,7 +2565,8 @@ textarea.form-control.is-invalid {
         flex: 0 0 auto;
         flex-flow: row wrap;
         align-items: center;
-        margin-bottom: 0
+        margin-bottom: 0;
+        background:#5E3C08;s
     }
 
     .form-inline .form-control {
@@ -2614,6 +2619,7 @@ textarea.form-control.is-invalid {
     user-select: none;
     background-color: transparent;
     border: 1px solid transparent;
+    background:#4C3006;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -2655,7 +2661,7 @@ fieldset:disabled a.btn {
 .btn-primary {
     color: #292929;
     background-color: #EEA73B;
-    border-color: #EEA73B
+    border-color: #2A1C04
 }
 
 .btn-primary:hover {
@@ -4427,7 +4433,8 @@ input.btn-block[type="button"] {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
     color: #5c5c5c;
-    background-color: #fff;
+    background-color: #422A06;
+    background: #201504;
     border-color: #a9a9a9 #a9a9a9 #fff
 }
 
@@ -4444,7 +4451,7 @@ input.btn-block[type="button"] {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #EEA73B
+    background-color: #1F1F1F
 }
 
 .nav-fill>.nav-link,
@@ -4509,7 +4516,8 @@ input.btn-block[type="button"] {
     flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
+
 }
 
 .navbar-nav .nav-link {
@@ -5498,6 +5506,7 @@ a.badge-dark.focus {
     right: 0;
     padding: .75rem 1.25rem;
     color: inherit
+
 }
 
 .alert-primary {
@@ -6046,7 +6055,8 @@ a.badge-dark.focus {
     line-height: 1;
     color: #000;
     text-shadow: 0 1px 0 #fff;
-    opacity: .5
+    opacity: .5;
+    foreground:#00000080;
 }
 
 .close:hover {
@@ -8216,7 +8226,8 @@ button.bg-dark:focus {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
-    border: 0
+    border: 0;
+    background:#FEFBF6;
 }
 
 .sr-only-focusable:active,
@@ -8397,7 +8408,8 @@ button.bg-dark:focus {
 
 .mb-3,
 .my-3 {
-    margin-bottom: 1rem !important
+    margin-bottom: 1rem !important;
+    background :#3A2404;
 }
 
 .ml-3,
@@ -10878,7 +10890,8 @@ h6 {
 }
 
 .btn-primary {
-    color: #fff
+    color: #fff;
+    background: #301E03;
 }
 
 .form-control {
@@ -10909,7 +10922,9 @@ h6 {
 .header .blog-name {
     font-weight: bold;
     font-size: 1.5rem;
-    color: #fff
+    color: #fff;
+    background: #636363;
+   
 }
 
 .header .blog-name a {
@@ -10960,7 +10975,9 @@ h6 {
 }
 
 .header .nav-item {
-    font-weight: bold
+    font-weight: bold;
+    background: #251803;
+
 }
 
 .header .nav-item.active .nav-link {
@@ -11005,7 +11022,7 @@ h6 {
     text-align: center;
     border-radius: 50%;
     transition: all 0.4s ease-in-out;
-    background-color: #fff
+    background-color: #121212
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11080,7 +11097,8 @@ h6 {
 
 .meta {
     color: #8f8f8f;
-    font-size: 0.8125rem
+    font-size: 0.8125rem;
+    background: #030303;
 }
 
 .meta span {
@@ -11113,7 +11131,7 @@ h6 {
 }
 
 .blog-nav .nav-link {
-    background: #EEA73B;
+    background: #5A3907;
     color: #fff;
     font-size: 1rem;
     padding: 1rem;
@@ -11278,7 +11296,8 @@ h6 {
 @media (max-width: 767.98px) {
     .signup-form .form-group {
         width: 100%;
-        margin-bottom: 0.5rem
+        margin-bottom: 0.5rem;
+        background:#FFFFFF;
     }
 
     .signup-form .form-control {
@@ -11375,7 +11394,8 @@ body {
 }
 
 .config-panel #color-options li.list-inline-item {
-    margin-right: 5px
+    margin-right: 5px;
+    background:#030303;
 }
 
 .config-panel #color-options li.active a {
@@ -11383,42 +11403,42 @@ body {
 }
 
 .config-panel #color-options li.theme-1 a {
-    background: #5FCB71
+    background: #000000
 }
 
 .config-panel #color-options li.theme-2 a {
-    background-color: #5BC3D5
+    background-color: #050E10
 }
 
 .config-panel #color-options li.theme-3 a {
-    background-color: #3B7EEB
+    background-color: #081B40
 }
 
 .config-panel #color-options li.theme-4 a {
-    background-color: #5ECCA9
+    background-color: #030705
 }
 
 .config-panel #color-options li.theme-5 a {
-    background-color: #EEA73B
+    background-color: #171717
 }
 
 .config-panel #color-options li.theme-6 a {
-    background-color: #5469C9
+    background-color: #101632
 }
 
 .config-panel #color-options li.theme-7 a {
-    background-color: #5D6BA7
+    background-color: #141824
 }
 
 .config-panel #color-options li.theme-8 a {
-    background-color: #6C51A4
+    background-color: #22152E
 }
 
 .config-panel .close {
     position: absolute;
     right: 5px;
     top: 5px;
-    color: #4C3006
+    color: #4C3006;
 }
 
 .config-panel .close .fa {
